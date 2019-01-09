@@ -29,9 +29,23 @@
 
 // Code Here 
 
-function first(arr, callback){
-  callback(arr[0])
-};
+
+function first(arr, cb){
+  cb()
+}
+
+
+
+
+
+
+
+
+
+
+// function first(arr, callback){
+//   callback(arr[0])
+// };
 // 
 // // Do not edit the code below.
 // var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
@@ -53,9 +67,17 @@ function first(arr, callback){
 
 // //Code Here
 
-function last(arr, callback){
-  callback(arr[arr.length-1]);
-}
+
+
+
+
+
+
+
+
+// function last(arr, callback){
+//   callback(arr[arr.length-1]);
+// }
 
 
 // // Do not edit the code below.
@@ -76,9 +98,22 @@ last(names, function(lastName){
 
 // //Code Here
 
-function multiply(num1, num2, callback){
-  callback(num1 * num2)
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function multiply(num1, num2, callback){
+//   callback(num1 * num2)
+// }
 
 
 // // Do not edit the code below.
@@ -100,15 +135,31 @@ multiply(4, 3, function(answer){
 
 // //Code Here 
 
-function contains(arr, name, callback){
-  for (var i = 0; i < arr.length; i++){
-    if (arr[i] === name){
-      callback(true)
-      return 'found';
-    }
-  }
-  callback(false);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function contains(arr, name, callback){
+//   for (var i = 0; i < arr.length; i++){
+//     if (arr[i] === name){
+//       callback(true)
+//       return 'found';
+//     }
+//   }
+//   callback(false);
+// }
 
 
 
@@ -134,14 +185,25 @@ contains(names, 'Colt', function(result){
 
 // //Code Here
 
-function uniq(arr, cb){
-  for (var i = arr.length - 1; i >= 0; i--){
-    if (arr.indexOf(arr[i]) !== i){
-      arr.splice(i, 1);
-    }
-  }
-  cb(arr);
-}
+
+
+
+
+
+
+
+
+
+
+
+// function uniq(arr, cb){
+//   for (var i = arr.length - 1; i >= 0; i--){
+//     if (arr.indexOf(arr[i]) !== i){
+//       arr.splice(i, 1);
+//     }
+//   }
+//   cb(arr);
+// }
 
 
 
@@ -162,11 +224,25 @@ uniq(names, function(uniqArr){
 
 // //Code Here 
 
-function each(arr, cb){
-  for (var i = 0; i < arr.length; i++){
-    cb(arr[i], i)
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function each(arr, cb){
+//   for (var i = 0; i < arr.length; i++){
+//     cb(arr[i], i)
+//   }
+// }
 
 
 
@@ -188,13 +264,23 @@ each(names, function(item, indice){
 // */
 
 // // Code here
-function getUserById(arr, id, cb){
-  for (var i = 0; i < arr.length; i++){
-    if (arr[i].id === id){
-      cb(arr[i]);
-    }
-  }
-}
+
+
+
+
+
+
+
+
+
+
+// function getUserById(arr, id, cb){
+//   for (var i = 0; i < arr.length; i++){
+//     if (arr[i].id === id){
+//       cb(arr[i]);
+//     }
+//   }
+// }
 // // Do not edit the code below.
 var users = [
   {
